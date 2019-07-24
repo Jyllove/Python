@@ -1,7 +1,7 @@
 def shell_sort(array):
     length = len(array)
-    while int(length)>=1:
-        length = int(length/2)
+    while length>=1:
+        length = length//2
         for i in range(length):
             for j in range(1,len(range(i,len(array),length))):
                 temp = array[i+j*length]
